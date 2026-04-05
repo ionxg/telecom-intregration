@@ -1,3 +1,5 @@
+#FastAPI used to create API application for subscriber service. It provides endpoints to manage subscribers, including retrieving subscriber information and creating new subscribers. The application uses an in-memory dictionary to store subscriber data for demonstration purposes.
+#HTTPException used to return proper error messages like 404 or 400
 from fastapi import FastAPI, HTTPException
 
 app = FastAPI()
