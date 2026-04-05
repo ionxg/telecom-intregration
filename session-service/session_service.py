@@ -1,3 +1,5 @@
+# Session Service: validates subscribers and creates network sessions
+
 from fastapi import FastAPI, HTTPException
 import requests
 
