@@ -1,3 +1,5 @@
+# Voice Service: checks active sessions and simulates VoLTE call setup
+
 from fastapi import FastAPI, HTTPException
 import requests
 
